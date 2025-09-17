@@ -1,0 +1,126 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* Main container */
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Amount input */
+.amount {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.amount p {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.amount input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.amount input:focus {
+  border-color: #4facfe;
+}
+
+/* Dropdowns */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dropdown .from,
+.dropdown .to {
+  width: 48%;
+}
+
+.dropdown p {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #f9f9f9;
+}
+
+.select-container img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.select-container select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Message */
+.Msg {
+  margin: 15px 0;
+  font-weight: 600;
+  color: #333;
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4facfe;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3a8fe9;
+}
