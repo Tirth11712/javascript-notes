@@ -2,7 +2,7 @@
 
 
  //callback hell
- /*function getdata(dataid,getnextdata){
+ function getdata(dataid,getnextdata){
     setTimeout(()=>{
         console.log("data",dataid);
         if(getnextdata){
@@ -17,4 +17,4 @@ getdata(1,()=>{
             getdata(4);
         });
     });
-});*/
+});

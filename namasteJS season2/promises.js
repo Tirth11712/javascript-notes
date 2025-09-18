@@ -1,7 +1,7 @@
 
 //promises 
 //examples
-/*const cart=['shoes','pants','kurta'];
+const cart=['shoes','pants','kurta'];
 
 const promise=createorder(cart);
 promise.then(function (){
@@ -26,7 +26,7 @@ return pr;
 
 function validatecart(cart){
     return true;
-}*/ 
+}
 //half code
 
 

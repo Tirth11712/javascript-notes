@@ -1,7 +1,7 @@
 //promise apis
 
 //promise.all()
-/*
+
 const p1=new Promise((resolve,reject)=>{
     setTimeout(()=>resolve("p1 sucess"),3000);
 });
@@ -21,7 +21,7 @@ Promise.all([p1,p2,p3])
     .catch((err)=>{
     console.log(err);
 });
-/*
+
 
 
 
@@ -48,7 +48,7 @@ Promise.all([p1,p2,p3])
 
 
 
-/*
+
 //promsie.race()
 const p1=new Promise((resolve,reject)=>{
     setTimeout(()=>resolve("p1 sucess"),3000);
@@ -93,5 +93,5 @@ Promise.all([p1,p2,p3])
     .catch((err)=>{
     console.log(err);
 });
-*/
+
 
