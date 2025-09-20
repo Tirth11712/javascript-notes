@@ -1,6 +1,5 @@
 //promise chain
-
-function getdata(dataid){
+/*function getdata(dataid){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             console.log("data",dataid);
@@ -27,4 +26,4 @@ function getdata(dataid){
         console.log("getting data2");
         console.log(res);
        });
-
+*/

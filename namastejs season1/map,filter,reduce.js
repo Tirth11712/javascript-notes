@@ -2,7 +2,7 @@
 
 //map()
 
-const arr=[5,1,3,2,6];
+/*const arr=[5,1,3,2,6];
 
 function double(x){
     return x*2;
@@ -21,7 +21,7 @@ console.log(output);*/
 
 
 //filter()
-
+/*
 const arr=[5,1,3,2,6];
 function isOdd(x){
     return x%2;
@@ -38,7 +38,7 @@ console.log(output);*/
 
 
 //reduce()
-const arr=[5,1,3,2,6];
+/*const arr=[5,1,3,2,6];
 const output=arr.reduce(function (acc,curr){
     acc=acc+curr;
     return acc;
@@ -53,3 +53,4 @@ const output=arr.reduce(function (max,curr){
     return max;
 });
 console.log(output);
+*/

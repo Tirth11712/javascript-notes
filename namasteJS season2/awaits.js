@@ -25,3 +25,14 @@ async function handlepromise(){
     console.log(value2);
 }
 handlepromise();
+
+//example 2
+async function fetchapi(){
+    const data=await fetch("https://api.otp.dev/v1/verifications");
+    const jsonvalue=await data.json();
+    console.log(jsonvalue);
+}
+fetchapi().catch((err)=>console.log(err));
+
+
+
